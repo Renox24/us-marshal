@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avis de recherche - 0001 - Truskov</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/acceuil.css">
+    <link rel="stylesheet" href="css/menudonnees.css">
+    <link rel="shortcut icon" href="images/logomarshal.jpg" type="image/x-icon">
+    <!-- Lien vers les icones réseaux sociaux -->   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"> 
+</head>
+
+<header>
+    <div class="container2">
+    <nav>
+        <ul>
+            <li class="menu-deroulant2">
+              <a href="saison1.html" class="realisationshover">Personnes</a>
+          <li class="menu-deroulant">
+            <a href="#" class="realisationshover">Groupes</a>
+            <ul class="sous-menu">
+              <li><a href="truskov.html">Truskov</a></li>
+              </ul>
+          </li>
+        </ul>
+      </nav>
+  </header> 
+
+<body>    
+    <section class="menu">
+        <div class="presentation">
+        <div id="kraken-container"></div>
+    </div>
+        <p style="margin-top: 4%; font-size: 50px; text-align: center;">
+            UNITED STATE MARSHAL
+        </p>
+        <p style="font-size: 35px; color: red; text-align: center; margin-top: 25px;">Avis de Recherche</p>
+        <p style="font-size: 25px; margin-left: 30px; margin-top: 10%; font-weight: bolder; text-decoration: underline;">Chers Citoyens(nes),</p>
+        <p style="font-size: 21px; margin-left: 60px; margin-top: 5%; font-weight: bolder;">A ce jour, un avis de recherche a été mis en place à l’encontre du groupe suivant : </p>
+        <p style="font-size: 22px; margin-left: 100px; margin-top: 1%;">- Truskov</p>
+        <p style="font-size: 22px; margin-left: 60px; margin-top: 5%; font-weight: bolder;">Description des individus : </p>
+        <p style="font-size: 22px; margin-left: 100px; margin-top: 1%;">- Adam Truskov, individu vêtu de tenues militaires.</p>
+        <p style="font-size: 22px; margin-left: 100px; margin-top: 1%;">- Jokan Truskov, individu vêtu de tenue militaire.</p>
+        <img src="images/tenue.png" alt="Véhicule Truskov récent" id="photos" style="width: auto; margin-left: 100px; margin-top: 1%; height: auto; border: 5px black solid;">
+        <p style="font-size: 22px; margin-left: 100px; margin-top: 1%;">- Ils sont nomades, on les voit dans plusieurs endroits comme : hangar à côté de la pharmacie,<br> hangar au port et au quartier résidentiel.</p>
+        <p style="font-size: 22px; margin-left: 60px; margin-top: 5%; font-weight: bolder;">Les faits reprochés sont : </p>
+        <p style="font-size: 22px; margin-left: 100px; margin-top: 1%;">- Prise d'otages</p>
+        <p style="font-size: 22px; margin-left: 100px; margin-top: 1%;">- Acte de terrorisme</p>
+        <p style="font-size: 22px; margin-left: 100px; margin-top: 1%;">- Tentative de meurtre sur haut fonctionnaire de l'état et police ;</p>
+        <p style="font-size: 22px; margin-left: 100px; margin-top: 1%;">- Possession d'armes lourdes</p>
+        <p style="font-size: 22px; margin-left: 60px; margin-top: 5%; font-weight: bolder;">Les véhicules suspect sont : </p>
+        <p style="font-size: 22px; margin-left: 100px; margin-top: 1%;">- Le groupe “militaire” sont véhiculer de audi a4 jaune et 4x4 noir ( mesa )</p>
+        <img src="images/cartruskov.png" alt="Véhicule Truskov récent" id="photos" style="width: auto; margin-left: 100px; margin-top: 1%; height: auto; border: 5px black solid;">
+        <p style="font-size: 22px; margin-left: 60px; margin-top: 5%; font-weight: bold;">Si vous apercevez des individus de cette organisation, contactez le plus rapidement possible un membre des <br> forces de l’ordre.</p>
+        <p style="font-size: 25px; margin-left: 200px; margin-top: 10%; font-weight: bolder;">Cordialement,</p>
+        <p style="font-size: 25px; margin-left: 120px; margin-top: 1%; margin-bottom: 5%;">U.S Marshal</p>
+
+        <style>
+
+.presentation {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #8a2be2; /* Violet color */
+    margin-bottom: 20px;
+}
+
+#kraken-container {
+    width: 500px;
+    height: 500px;
+    background-image: url('images/logomarshal.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    border: 5px solid black; /* Violet border */
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.photos {
+    width: 30%;
+    margin-left: 100px;
+    height: auto;
+    border: 5px black solid;
+}
+
+img {
+    cursor: pointer;
+}
+
+        </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const krakenContainer = document.getElementById('kraken-container');
+
+    krakenContainer.addEventListener('mouseenter', () => {
+        krakenContainer.style.transform = 'scale(1.1)';
+        krakenContainer.style.transition = 'transform 0.3s ease-in-out';
+    });
+
+    krakenContainer.addEventListener('mouseleave', () => {
+        krakenContainer.style.transform = 'scale(1)';
+    });
+
+    // Sélectionne tous les éléments avec l'ID 'photos'
+    const photos = document.querySelectorAll('#photos');
+
+// Ajoute un événement de clic à chaque image
+    photos.forEach(function(photo) {
+    photo.addEventListener('click', function() {
+        // URL de l'image cliquée
+        const imageUrl = this.src;
+
+        // Ouvre une nouvelle fenêtre avec l'image cliquée
+        window.open(imageUrl, '_blank');
+    });
+});
+});
+
+  </script>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <div class="button">
+                <div class="icon"><i class="fab fa-twitch"></i></div>
+                <a href="https://www.twitch.tv/"><span>Twitch</span></a>
+            </div>
+      
+            <div class="button">
+                <div class="icon"><i class="fab fa-twitter"></i></div>
+                <a href="https://x.com/Accueil"><span>Twitter</span></a>
+            </div>
+      
+            <div class="button">
+                <div class="icon"><i class="fab fa-instagram"></i></div>
+                <a href="https://www.instagram.com/"><span>Instagram</span></a>
+            </div>
+      
+            <div class="button">
+                <div class="icon"><i class="fab fa-youtube"></i></div>
+                <a href="https://www.youtube.com/"><span>Youtube</span></a>
+            </div>
+        </div>
+        <div class="blume"></div>
+            <div class="findivblumeref">
+              <p class="blumeref">&#169 Purple Kraken</p>
+            <a class="blumeref" href="donnees.html">Données personelles</a>
+            <a class="blumeref" href="contact.html">Contactez-nous</a>
+        </div>
+      </div>
+      </footer>
+        
+        <!-- Scripts -->
+        
+        <script src="js/script.js"></script>
+</body> 
+
+</html>
