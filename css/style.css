@@ -261,37 +261,37 @@ color: white;
 }
 
 .social-media .button:nth-child(3):hover .icon {
-    background: rgb(50, 2, 182);
+    background: rgb(188, 187, 187);
 }
 
 .social-media .button:nth-child(4):hover .icon {
-    background: rgb(50, 2, 182);
+    background: rgb(188, 187, 187);
 }
 
 .social-media .button:nth-child(5):hover .icon {
-    background: rgb(50, 2, 182);
+    background: rgb(188, 187, 187);
 }
 
 /* span */
 
 .social-media .button:nth-child(1):hover span {
-    color: #3202B6;
+    color: rgb(50, 2, 182);
 }
 
 .social-media .button:nth-child(2):hover span {
-    color: #3202B6;
+    color: rgb(188, 187, 187);
 }
 
 .social-media .button:nth-child(3):hover span {
-    color: #3202B6;
+    color: rgb(188, 187, 187);
 }
 
 .social-media .button:nth-child(4):hover span {
-    color: #3202B6;
+    color: rgb(188, 187, 187);
 }
 
 .social-media .button:nth-child(5):hover span {
-    color: #3202B6;
+    color: rgb(188, 187, 187);
 }
 
 .social-media .button span{
