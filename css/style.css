@@ -253,23 +253,23 @@ color: white;
 }
 
 .social-media .button:nth-child(1):hover .icon {
-    background: #3202B6;
+    background: rgb(50, 2, 182);
 }
 
 .social-media .button:nth-child(2):hover .icon {
-    background: #3202B6;
+    background: rgb(50, 2, 182);
 }
 
 .social-media .button:nth-child(3):hover .icon {
-    background: #3202B6;
+    background: rgb(50, 2, 182);
 }
 
 .social-media .button:nth-child(4):hover .icon {
-    background: #3202B6;
+    background: rgb(50, 2, 182);
 }
 
 .social-media .button:nth-child(5):hover .icon {
-    background: #3202B6;
+    background: rgb(50, 2, 182);
 }
 
 /* span */
