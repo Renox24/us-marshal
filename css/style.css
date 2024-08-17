@@ -253,7 +253,7 @@ color: white;
 }
 
 .social-media .button:nth-child(1):hover .icon {
-    background: #9146FF;
+    background: #3202B6;
 }
 
 .social-media .button:nth-child(2):hover .icon {
@@ -275,7 +275,7 @@ color: white;
 /* span */
 
 .social-media .button:nth-child(1):hover span {
-    color: #9146FF;
+    color: #3202B6;
 }
 
 .social-media .button:nth-child(2):hover span {
