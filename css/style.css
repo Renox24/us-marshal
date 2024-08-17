@@ -257,19 +257,19 @@ color: white;
 }
 
 .social-media .button:nth-child(2):hover .icon {
-    background: #1DA1F2;
+    background: #3202B6;
 }
 
 .social-media .button:nth-child(3):hover .icon {
-    background: #E1306C;
+    background: #3202B6;
 }
 
 .social-media .button:nth-child(4):hover .icon {
-    background: #d80505;
+    background: #3202B6;
 }
 
 .social-media .button:nth-child(5):hover .icon {
-    background: #d80505;
+    background: #3202B6;
 }
 
 /* span */
@@ -279,19 +279,19 @@ color: white;
 }
 
 .social-media .button:nth-child(2):hover span {
-    color: #1DA1F2;
+    color: #3202B6;
 }
 
 .social-media .button:nth-child(3):hover span {
-    color: #E1306C;
+    color: #3202B6;
 }
 
 .social-media .button:nth-child(4):hover span {
-    color: #d80505;
+    color: #3202B6;
 }
 
 .social-media .button:nth-child(5):hover span {
-    color: #d80505;
+    color: #3202B6;
 }
 
 .social-media .button span{
